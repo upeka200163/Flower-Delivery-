@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bloomify - Flower Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="queries" href="queries.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">🌼 Bloomify</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#why-bloomify">Why Bloomify?</a>
+      <a href="#favourites">Customer Favourites</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#download-app">Download App</a>
+    </div>
+     <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <section class="hero-section" id="home">
+    <div class="hero-content">
+        <div class="hero-text reveal">
+            <span class="label">🏆 Award-Wining Flower Delivery Service </span>
+            <h1>
+                Fresh Blooms,<br />
+                Delivered Instantly 💮
+            </h1>
+            <p>
+                AI-powered recommendations, same-day delivary & Customer
+                bouquets-experience flower shopping redefined
+            </p>
+            <a href="#"><i class="fa-solid fa-download"> Download App</i></a>
+        </div>
+        <div class="hero-image reveal">
+            <img src="mockup.png" alt="hero-img" />
+
+        </div>
+    </div>
+  </section>
+  <!--Section: Why Bloomify-->
+    <section class="why-bloomify" id="why-bloomify">
+        <span class="label">Why Bloomify?</span>
+        <h3>The Best Way to<br/>
+          Send Flowers,period!
+        </h3>
+        <div class="why-bloomify-content">
+          <div class="card reveal">
+          <i class="fas fa-crown"></i>
+          <span>AIPowerd Recommendations</span>
+          <p>
+            Get personalized flower suggestions based on your preferences, past
+            orders, and special occasions.
+          </p>
+          </div>
+          <div class="card reveal">
+          <i class="fa-solid fa-truck-fast"></i>
+          <span>Same-Day & Sheduled Delivery</span>
+          <p>
+            Whether it's a last-minute gift or a planned surprise, we Deliver
+            fresh flowers exactly when you need them.
+          </p>
+          </div>
+          <div class="card reveal">
+            <i class="fa-solid fa-sliders"></i>
+            <span>Build Your Own Custom Bouquet</span>
+            <p>
+              Whether it's last-minute gift or a planned surprise, we deliver
+              fresh flowers exactly when you need them.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <!--Section: Customer Favourites-->
+    <section class="customer-favourites" id="favourites">
+      <div class="label-container">
+        <span class="label">Customer Favourites</span>
+      </div>
+      <h3>
+        Discover our best-selling<br />
+        floral arrangements
+      </h3>
+      <div class="customer-favourites-content">
+          <div class="product reveal">
+        <img src="pro 1.jpg" alt="product-image" />
+        <p class="rating">
+          <i class="fa-solid fa-star"></i>
+          4.2
+        </p>
+        <span>Blush Pink Lily Bunch</span>
+        <p> RS. 2000 /=</p>
+      </div>
+
+      <div class="product reveal">
+        <img src="pro 2.jpg" alt="product-image" />
+        <p class="rating">
+          <i class="fa-solid fa-star"></i>
+          4.7
+        </p>
+        <span>Whispering Carnation</span>
+        <p>RS. 2400 /=</p>
+      </div>
+
+      <div class="product reveal">
+        <img src="pro 3.jpg" alt="product-image" />
+        <p class="rating">
+          <i class="fa-solid fa-star"></i>
+          4.4
+        </p>
+        <span>White Rose Elegance</span>
+        <p>RS. 3800 /=</p>
+      </div>
+
+      <div class="product reveal">
+        <img src="pro 4.jpg" alt="product-image" />
+        <p class="rating">
+          <i class="fa-solid fa-star"></i>
+          4.5
+        </p>
+        <span>Classic Mixed Blooms</span>
+        <p>RS. 3500 /=</p>
+      </div>
+      </div>
+    </section>
+
+    <!--Section: How It Works-->
+    <section class="how-it-works" id="how-it-works">
+      <span class="label">How It Works</span>
+      <h3>
+        Ordering Flowers Has<br />
+        Never Been Easier!
+      </h3>
+      <div class="how-it-works-content">
+        <div class="step reveal">
+          <span>1</span>
+          <h4>Browse & Choose</h4>
+          <p>Explore handcrafted floral arrangements for every occasions. Want something unique?
+            Customize your own bouquet 
+          </p>
+        </div>
+
+        <div class="step reveal">
+          <span>2</span>
+          <h4>Schedule Your Delivery</h4>
+          <p>
+           Need flowers fast? Choose Same-Day Delivery. Planing ahead?
+          Schedule for later, and we'll take care of the rest.
+        </p>
+        </div>
+
+        <div class="step reveal">
+          <span>3</span>
+          <h4>Track & Enjoy</h4>
+          <p>
+            Once ordered, relax! Our real-time tracking system keeps you
+          updated, from bouquet preparation to doorstep Delivery
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Section: Testimonials-->
+    <section class="testimonials">
+      <span class="label">Testimonials</span>
+      <h3>Hear From Our
+        Happy Customers! 🌼
+      </h3>
+      <div class="testimonials-content">
+        <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Bloomify made gifting so easy! The flowers were fresh, beautifully arranged, arranged
+            delivered on time.</p>
+          <span>Priya Mehta</span>
+        </div>
+
+     
+        <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Absolutely love the AI-powered suggrestions! Found the perfect
+            bouquet in seconds.
+          </p>
+          <span>Arjun Sharma</span>
+        </div>
+
+        
+        <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>On-time delivery and stunning flowers. The customization options
+            were a game-changer! </p>
+          <span> Neha Reddy</span>
+        </div>
+
+        <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Excellent experience! The same-day delivery saved me when I needed a
+            last-minute gift. </p>
+          <span> Rahul khanna</span>
+        </div>
+
+         <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>The quality of flowers was amazing! They stayed fresh for days,and
+            the packaging was beautiful. </p>
+          <span>Simran Kaur</span>
+        </div>
+
+          <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>The quality of flowers was amazing! They stayed fresh for days,and
+            the packaging was beautiful. </p>
+          <span>Simran Kaur</span>
+        </div>
+
+        
+          <div class="testimonial reveal">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Bloomify's scheduled delivery was super convenient. The bouquet
+            arrived on time for my anniversary! </p>
+          <span>Vikram Iyer</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-app" id="download-app">
+      <div class="download-app-content">
+        <div class="download-app-text reveal">
+          <h3>
+            Get Bloomify & Order <br />
+            Flowers in Seconds!
+          </h3>
+          <p>
+          Fast, fresh, and beautifully crafted-experience seamless flower
+          delivery at your fingertips
+          </p>
+          <div class ="btns">
+            <a href="#">
+              <img src="appstore.png" alt="App Store" />
+            </a>
+            <a href="#">
+              <img src="playstore.png" alt="Play Store" />
+            </a>
+          </div>
+</div>
+          <div class="download-app-img reveal">
+            <img src="flower-mockup.png" alt="download-app-img" />
+
+          </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <h3>Bloomify</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#why-bloomify">Why Bloomify?</a></li>
+              <li><a href="#favourites">Customer Favourites</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#download-app">Download App</a></li>
+            </ul>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          </div>
+          <p class="footer-text">
+            &copy; 2026 Bloomify. All rights reserved.
+        </footer>
+        
+       
+  <script src="script.js"></script>
+</body>
+</html>
