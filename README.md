@@ -4,11 +4,6 @@ Bloomify is a modern, user-friendly flower delivery web application that combine
 
 ---
 
-## 🚀 Live Demo
-
-Check out the deployed site here: [https://flower-delivery-website.vercel.app/](https://flower-delivery-website.vercel.app/)
-
-
 ### 🌼 Features
 
 - 🌟 Award-winning flower delivery service  
