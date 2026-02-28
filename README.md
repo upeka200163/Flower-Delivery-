@@ -30,17 +30,11 @@ Check out the deployed site here: [https://flower-delivery-website.vercel.app/](
 
 ---
 
-### 📸 Screenshots
-
-*(Coming soon...)*
-
----
-
 ### 🚀 How It Works
 
-1. **Browse & Choose** your desired arrangement or build your own.  
-2. **Schedule Delivery** instantly or for a later time.  
-3. **Track & Enjoy** with real-time updates until delivery.
+1. Browse & Choose your desired arrangement or build your own.  
+2. Schedule Delivery instantly or for a later time.  
+3. Track & Enjoy with real-time updates until delivery.
 
 ---
 
@@ -49,6 +43,4 @@ Check out the deployed site here: [https://flower-delivery-website.vercel.app/](
 Clone the repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/rgwdbandara/Flower-Delivery-Website.git
-cd Flower-Delivery-Website
-open index.html
+https://github.com/upeka200163/Flower-Delivery-.git
